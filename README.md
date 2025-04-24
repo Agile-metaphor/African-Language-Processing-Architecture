@@ -7,4 +7,4 @@ training small scale text to speech based on Bibeli Mimo
 
 (low quality, not enough data as well?)
 Current stage -
-Expanding to include more datasestsStandardising accent marks of multiple written datasets
+Expanding to include more datasests standardising diacritics of multiple written datasets (modify yoruba-adr?)
