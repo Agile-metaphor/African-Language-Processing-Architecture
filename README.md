@@ -6,5 +6,8 @@ First stage -
 training small scale text to speech based on Bibeli Mimo
 
 (low quality, not enough data as well?)
-Current stage -
+Previous stage -
 Expanding to include more datasests standardising diacritics of multiple written datasets (modify yoruba-adr?)
+
+Current stage -
+Preparing a demo using vibevoice 1.5B Lora yoruba-adr cleaned and naijavoices https://huggingface.co/datasets/naijavoices/naijavoices-dataset dataset possibly with https://huggingface.co/datasets/facebook/omnilingual-asr-corpus omniASR dataset 
