@@ -6,13 +6,19 @@ First stage -
 training small scale text to speech based on Bibeli Mimo
 
 (low quality, not enough data as well?)
-Previous x2 stage -
+Previous x3 stage -
 Expanding to include more datasests standardising diacritics of multiple written datasets (modify yoruba-adr?)
 
-Previous stage -
+Previous x2 stage -
 Preparing a demo using vibevoice 1.5B Lora yoruba-adr cleaned and naijavoices https://huggingface.co/datasets/naijavoices/naijavoices-dataset dataset possibly with https://huggingface.co/datasets/facebook/omnilingual-asr-corpus omniASR dataset 
 
-nope -  vibevoice finetuning is poor for multilingual purpsoes, cross entropy loss too high
+Findings - nope -  vibevoice finetuning is poor for multilingual purpsoes, cross entropy loss too high
 
-Current stage
+Previous stage
 try with maya1, voxcpm1.5, echoo-tts maybe? other models
+
+Findings - better start from scratch or almost scratch
+
+Current plan intent for training:- Normalize data → make ADR? → simple ish LLM(text) → ASR(+ADR) → find more speech → improve LLM(text) → TTS → S2ST
+Get lots and lots of data, (Attempt to request IroyinSpeech access again after providing current results?).
+Clean results
