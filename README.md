@@ -22,3 +22,5 @@ Findings - better start from scratch or almost scratch
 Current plan intent for training:- Normalize data → make ADR? → simple ish LLM(text) → ASR(+ADR) → find more speech → improve LLM(text) → TTS → S2ST
 Get lots and lots of data, (Attempt to request IroyinSpeech access again after providing current results?).
 Clean results
+
+Acceptable progress made, possibility of samples soon-ish?
