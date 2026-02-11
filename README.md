@@ -84,3 +84,6 @@ Normalize data
 
 - Acceptable progress so far
 - More ample outputs possible soon-ish
+
+Yoruba asr models on huggingface, still in early testing - https://huggingface.co/David-A-Amoo/Qwen3-ASR-1.7B-Yoruba
+Cleaned version of best samples of yoruba data in naijavoices dataset - https://huggingface.co/datasets/David-A-Amoo/naijavoices_dataset_85_hours_tts_best
